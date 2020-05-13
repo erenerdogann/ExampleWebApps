@@ -1,0 +1,17 @@
+/*General Styles*/
+.appBoxInside{
+    padding: 0% 3% 7% 3%;
+}
+.appBoxOutside{
+    border-radius: 12%;
+}
+.navbar{
+    margin-bottom: 3%;
+}
+
+/*BMI Calculator*/
+.BMICalculator{
+    background-color: #f4eeff;
+    text-align: center;
+    margin: auto;
+}
