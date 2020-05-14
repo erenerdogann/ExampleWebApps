@@ -12,8 +12,9 @@
     <nav class="navbar navbar-dark bg-dark">
         <a class="navbar-brand" href="https://erenerdogann.github.io/ExampleWebApps/">Example Small Web Apps</a>
     </nav>
+
     <!--BMI Calculator-->
-    <div class="BMICalculator col-lg-3 col-md-6 appBoxOutside">
+    <div class="AppBox col-lg-3 col-md-6 appBoxOutside">
         <div>
             <h1>BMI Calculator</h1>
         </div>
@@ -31,6 +32,18 @@
                 </div>
               </form>
               <button onclick="calculateBMI()" class="btn btn-primary">Calculate</button>
+        </div>
+    </div>
+
+    <!--HeadTail-->
+    <div class="AppBox col-lg-3 col-md-6 appBoxOutside">
+        <div>
+            <h1>Head Or Tail</h1>
+        </div>
+        <hr>
+        <div class="appBoxInside">
+            <h3 id="CoinResult">-</h3>
+            <button onclick="tossTheCoin()" class="btn btn-primary">Toss The Coin</button>
         </div>
     </div>
 

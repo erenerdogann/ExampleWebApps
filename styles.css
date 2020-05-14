@@ -1,6 +1,11 @@
 /*General Styles*/
+body{
+    text-align: center;
+}
+
 .appBoxInside{
     padding: 0% 3% 7% 3%;
+    
 }
 .appBoxOutside{
     border-radius: 12%;
@@ -9,9 +14,15 @@
     margin-bottom: 3%;
 }
 
-/*BMI Calculator*/
-.BMICalculator{
+.AppBox{
     background-color: #f4eeff;
     text-align: center;
-    margin: auto;
+    margin: auto 3% 3% auto;
+    display: inline-block;
+}
+
+/*Head Or Tail*/
+#CoinResult{
+    margin: 5%;
+    color: #63b7af;
 }
