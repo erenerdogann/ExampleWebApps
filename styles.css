@@ -4,11 +4,12 @@ body{
 }
 
 .appBoxInside{
-    padding: 0% 3% 7% 3%;
+    padding: 0 3% 7% 3%;
     
 }
 .appBoxOutside{
     border-radius: 12%;
+    padding-top: 1%;
 }
 .navbar{
     margin-bottom: 3%;

@@ -17,3 +17,23 @@ function tossTheCoin(){
     }
         
 }
+
+// Standart Counter
+function standartCounter(){
+    var userTime = document.getElementById("customTime").value;
+    document.getElementById("standartButton").disabled = true;
+    var myTime = document.getElementById("Counter");
+    var timeLeft = userTime * 60;
+    var counter = setInterval(function(){
+        var minute = Math.floor(timeLeft / 60);
+        var second = Math.floor(timeLeft % 60);
+        myTime.textContent = "Time Left: " + minute + " m " + second + " s ";
+        timeLeft--;
+        if(timeLeft < 0){
+            clearInterval(counter);
+            myTime.textContent = "Time is Up!";
+            document.getElementById("standartButton").disabled = false;
+        }
+        
+    }, 1000);
+}
